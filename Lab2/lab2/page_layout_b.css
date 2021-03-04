@@ -1,0 +1,128 @@
+section{
+	float:left;
+}
+aside {
+  background-color: lightgray;
+  float: right;
+  width: 27.33%;
+  padding: 10px;
+  margin-top: 3.5%;
+  margin-right: 2.5%;
+}
+p{
+	font-family:Arial;
+	font-size: 12px;
+	padding: 0px;
+    margin: 0px;
+}
+h3{
+	font-family:Arial;
+	padding: 0px;
+    margin: 0px;
+}
+nav{
+   overflow: hidden;
+	  background-color: black;
+	  text-align:center;
+    width: 99%;
+}
+header nav{
+	color: white;
+	padding: 5px;
+	font-size: 14px;
+}
+footer nav{
+	color: gray;
+	padding: 14px;
+	font-size: 10px;
+}
+footer {
+  clear: both;
+  width: 100%;
+  height: 2.5rem;            
+}
+a{
+  color: inherit;
+  text-decoration: none;
+  font-family: Arial;
+}
+a:hover {
+  color: #d1de44;
+}
+#hero{
+	background-color: gray;
+}
+#heroPad{
+	padding-top: 10px;
+  padding-bottom: 10px;
+}
+#heroImg {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+  width: 90%;
+}
+
+#articles{
+	width: 66%;
+}
+.article{
+  float: left;
+  width: 40%;
+  padding: 5%;
+
+}
+.articleImg{  
+	width: 100%;
+}
+
+#sideTitle{
+	text-align: center;
+}
+
+.icon {
+  display: none;
+}
+.menu{
+  width: 75px;
+}
+@media screen and (max-width: 900px) {
+
+
+.tn a:not(:first-child) {display: none;}
+.tn{
+  font-size: 1px;
+  color: black;
+  transition: 0.5s;
+
+}
+a.icon {
+    float: right;
+    display: block;
+  }
+  .tn.responsive {position: relative;}
+  .tn.responsive{
+    font-size: 25px;
+    color: white;
+    transition: 0.5s;
+  }
+  .tn.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .tn.responsive a {
+    float: none;
+    display: block;
+    color: white;
+    border-top: 10px;
+    padding: 7px 7px 7px 30px;
+    text-align: center;
+
+  }
+  .tn.responsive a:hover{
+    color: #d1de44;
+  }
+}
+
